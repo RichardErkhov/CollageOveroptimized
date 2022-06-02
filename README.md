@@ -1,4 +1,5 @@
 Optimized as hard as I could 
+
 Step #1
 
   To create collages with this code the first step is to get a folder with a lot of images in exactly the same resolution ( have to be squares ). I offer a straightfoward path of using the Downloader.py programm to do that for you. If you already have the images, you are free to skip to step #2.
