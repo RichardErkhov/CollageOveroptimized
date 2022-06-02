@@ -13,3 +13,5 @@ Step #2
 Step #3
 
 Enjoy the Collage!
+
+Made by @QentaiX, optimized by me
