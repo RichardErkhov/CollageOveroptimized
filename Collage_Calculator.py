@@ -14,6 +14,13 @@ Libraries required to run this code ( in the form of commands to install them ):
 pip install Pillow
 pip install numpy
 pip install tqdm
+or just pip install -r requirements.txt
+
+to optimize it to full speed, you can do some magic (if you are windows user):
+pip install pipwin
+pipwin install numpy
+pipwin install pillow-simd
+pip install tqdm
 """""
 
 """""
@@ -72,9 +79,9 @@ def Calculate_Averages(Image):
             Blue_Channel = numpy.resize(Blue_Cut, Pixel_Count)
 
             #Get the sums of these arrays
-            Red_Total = sum(Red_Channel)
-            Green_Total = sum(Green_Channel)
-            Blue_Total = sum(Blue_Channel)
+            Red_Total = numpy.sum(Red_Channel)
+            Green_Total = numpy.sum(Green_Channel)
+            Blue_Total = numpy.sum(Blue_Channel)
 
         else:
 
